@@ -51,7 +51,7 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-  assest:
+  assets:
     - assets/splash_screen.jpg
 
   # The following line ensures that the Material Icons font is

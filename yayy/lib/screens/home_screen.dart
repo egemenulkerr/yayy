@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:yayy/screens/home_screen.dart';
+
 
 
 class HomeScreen extends StatefulWidget {
@@ -21,7 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
             color: Colors.deepPurpleAccent
           ),
         ),
-      ),
+      ), 
     );
   }
 }
