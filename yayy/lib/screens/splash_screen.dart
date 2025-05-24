@@ -31,7 +31,7 @@ class _SplashScreenState extends State<SplashScreen> {
             fit: BoxFit.cover,
           ),
           Container(
-            color: Colors.black.withOpacity(0.4), // 🔥 Görselin üstünü karart
+            color: Colors.black.withOpacity(0.4), // Görselin üstünü karart
           ),
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
