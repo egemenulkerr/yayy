@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'social_feed_tab.dart';
 import 'friends_tab.dart';
-import 'group_page.dart'; // 👈 unutma bunu eklemeyi
+import 'group_page.dart';
 
 class SocialPage extends StatefulWidget {
   const SocialPage({super.key});
@@ -16,7 +16,7 @@ class _SocialPageState extends State<SocialPage> with SingleTickerProviderStateM
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(length: 3, vsync: this);
+    _tabController = TabController(length: 3, vsync: this); // 3 sekme
   }
 
   @override
@@ -42,9 +42,9 @@ class _SocialPageState extends State<SocialPage> with SingleTickerProviderStateM
       body: TabBarView(
         controller: _tabController,
         children: const [
-          SocialFeedTab(),
-          FriendsTab(),
-          GroupPage(), // 👈 yeni sekme burası
+          SocialFeedTab(),   // Akış ekranı
+          FriendsTab(),      // Arkadaşlar ekranı
+          GroupPage(),       // Gruplar ekranı
         ],
       ),
     );
